@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: solar-system
-  namespace: argocd
+  namespace: demo
   labels:
     app: solar-system
 spec:
